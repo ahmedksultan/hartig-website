@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900,900i&display=swap");
+
+/* body */
+
+body {
+    margin: 0;
+}
+
+body.landing #page-wrapper {
+	padding-top: 0;
+}
+
+/* header & navbar */
+
+#header {
+    background: #FFFFFF;
+	  color: #7e8487;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    font-family: helvetica;
+}
+
+#header nav {
+	height: inherit;
+    line-height: inherit;
+    position: absolute;
+    right: 1.25em;
+    top: 0;
+    vertical-align: middle;
+}
+
+#header nav > ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#header nav > ul > li {
+    display: inline-block;
+    margin-left: 1.5em;
+    padding-left: 0;
+}
+
+#header nav > ul > li a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#header nav > ul > li:first-child {
+    margin-left: 0;
+}
+
+#header nav > ul > li:hover a {
+    color: #F9DC5C;
+}
+
+/* banner */
+
+#banner {
+    /* background-image: url(https://i.pinimg.com/originals/80/6d/73/806d7321d477613d573b5218059332d3.jpg); */
+    /* background-image: url(https://media0.giphy.com/media/3oFyD4xKncK6ptR7qg/giphy.gif); */
+    background-image: url('gif.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0 5em 0;
+    text-align: center;
+}
+
+#banner .logo {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 75px;  
+    color: white;
+    background-color: #F9DC5C;
+    padding: 20px;
+    border-radius: 25px;
+    font-kerning: none;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 1px 1px 5px #F9DC5C;
+}
+
+#banner .tagline {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #F9DC5C;
+    font-size: 30px;
+    margin: 100px;
+    color: white;
+}
+
+#banner2 .info {
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    background-color:rgba(249,220,92, 1);
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 20px;
+}
+
+/* bio-short */
+
+#bio-short {
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    text-align: justify;
+    font-weight: 300;
+    font-family: 'Merriweather';
+}
+
+#bio-short .top {
+    font-size: 25px;
+    text-align: center !important;
+    font-family: 'Red Hat Display' !important;
+}
+
+#bio-short .top b {
+  color: #F9DC5C;
+}
+
+/* blog */
+
+#blog-preview {
+  background-color: #F9DC5C;
+}
+
+#blog-head {
+  font-size: 30px;
+  color: white;
+}
+
+.video-container #myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#banner2 .overlay {
+  position: relative;
+  top: 1em;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#banner2 {
+  position: relative;
+  background-color: #F9DC5C;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#banner2 video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#banner2 .container {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  margin-left: 10em;
+  margin-top: 7em;
+  padding:0;
+}
+
+#banner2 h1 {
+  font-size: 75px;
+  font-weight: 900;
+  font-family: 'Playfair Display';
+  text-shadow: 2px 2px rgba(249,220,92, 1);
+}
+
+#banner2 p {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Red Hat Display';
+  margin: 0 !important;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: #F9DC5C;
+}
+
+#banner2 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  background-color: #7e8487;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  #banner2 {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') white no-repeat center center scroll;
+  }
+  #banner2 video {
+    display: none;
+  }
+}
