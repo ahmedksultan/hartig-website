@@ -69,40 +69,6 @@ body.landing #page-wrapper {
 
 /* banner */
 
-#banner {
-    /* background-image: url(https://i.pinimg.com/originals/80/6d/73/806d7321d477613d573b5218059332d3.jpg); */
-    /* background-image: url(https://media0.giphy.com/media/3oFyD4xKncK6ptR7qg/giphy.gif); */
-    background-image: url('gif.gif');
-    background-size: cover;
-    background-position: center;
-    padding: 10em 0 5em 0;
-    text-align: center;
-}
-
-#banner .logo {
-    font-family: 'Playfair Display';
-    font-weight: 900;
-    font-size: 75px;  
-    color: white;
-    background-color: #F9DC5C;
-    padding: 20px;
-    border-radius: 25px;
-    font-kerning: none;
-    text-shadow: 1px 1px 2px gray;
-    box-shadow: 1px 1px 5px #F9DC5C;
-}
-
-#banner .tagline {
-    font-family: 'Playfair Display';
-    font-weight: 700;
-    font-style: italic;
-    text-decoration: underline;
-    text-decoration-color: #F9DC5C;
-    font-size: 30px;
-    margin: 100px;
-    color: white;
-}
-
 #banner2 .info {
     font-family: 'Red Hat Display';
     font-weight: 700;
@@ -113,7 +79,7 @@ body.landing #page-wrapper {
     border-radius: 10px;
     background-color:rgba(249,220,92, 1);
     color: white;
-    text-shadow: 1px 1px 2px gray;
+    text-shadow: 1px 1px gray;
     font-size: 20px;
 }
 
@@ -137,17 +103,6 @@ body.landing #page-wrapper {
 
 #bio-short .top b {
   color: #F9DC5C;
-}
-
-/* blog */
-
-#blog-preview {
-  background-color: #F9DC5C;
-}
-
-#blog-head {
-  font-size: 30px;
-  color: white;
 }
 
 .video-container #myVideo {
@@ -195,7 +150,7 @@ body.landing #page-wrapper {
   position: absolute;
   z-index: 3;
   color: white;
-  margin-left: 10em;
+  margin-left: 5em;
   margin-top: 7em;
   padding:0;
 }
@@ -235,4 +190,67 @@ body.landing #page-wrapper {
   #banner2 video {
     display: none;
   }
+}
+
+/* blog */
+
+#blog-preview {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #F9DC5C;
+}
+
+#blog-preview .blog-head {
+  font-size: 50px;
+  color: black;
+  font-family: 'Red Hat Display';
+  font-weight: 900;
+  text-shadow: 2px 2px 3px white;
+  text-decoration: underline;
+  text-decoration-color: black;
+  margin-left: 0;
+}
+
+.blog {
+  background-color: white;
+  margin-top: 1em;
+  border-radius: 25px;
+  padding: 2em;
+  padding-bottom: 3em;
+  font-family: 'Playfair Display';
+  text-align: justify;
+  box-shadow: 10px 10px;
+}
+
+.blog .blog-title {
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Red Hat Display';
+}
+
+.blog .blog-info {
+  font-family: 'Red Hat Display';
+}
+
+.blog a {
+  color: black;
+  text-decoration: underline;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.blog a:hover {
+  background-color: #F9DC5C;
+  border-radius: 25px;
+}
+
+.blog iframe {
+  border: 0px;
+  border-radius: 25px;
 }
