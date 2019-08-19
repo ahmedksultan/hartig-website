@@ -121,6 +121,7 @@ body.landing #page-wrapper {
   border-radius: 25px;
 }
 
+
 .video-container #myVideo {
   right: 0;
   bottom: 0;
@@ -175,7 +176,7 @@ body.landing #page-wrapper {
   font-size: 75px;
   font-weight: 900;
   font-family: 'Playfair Display';
-  text-shadow: 2px 2px rgba(249,220,92, 1);
+  text-shadow: 3px 3px rgba(249,220,92, 1);
 }
 
 #banner2 p {
@@ -223,7 +224,7 @@ body.landing #page-wrapper {
   color: black;
   font-family: 'Red Hat Display';
   font-weight: 900;
-  text-shadow: 2px 2px white;
+  text-shadow: 3px 3px white;
   text-decoration: underline;
   text-decoration-color: black;
   margin-left: 0;
@@ -270,4 +271,97 @@ body.landing #page-wrapper {
 .blog iframe {
   border: 0px;
   border-radius: 25px;
+}
+
+.static-banner {
+  width: 100%;
+  height: 7em;
+  background-color: #F9DC5C;
+  padding-top: 5em;
+  text-align: center;
+  margin: 0 0;
+}
+
+.static-banner .static-banner-title {
+  color: black;
+  font-family: 'Red Hat Display';
+  line-height: 1.25em;
+  font-size: 70px;
+  font-weight: 900;
+  text-shadow: 3px 3px white;
+}
+
+.bio-quote {
+  padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Merriweather';
+}
+
+.bio-body {
+  padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-weight: 300;
+    font-family: 'Merriweather';
+}
+
+.sv-head {
+  font-family: 'Red Hat Display';
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#services {
+  text-align: center;
+  padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    font-weight: 300;
+    font-family: 'Merriweather';
+}
+
+#services .smr-holder {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+#services .smr-holder a {
+    padding:1em;
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    padding: 1.5em 0.5em;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #F9DC5C;
+    transition: 0.3s;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    box-shadow: 3px 3px black;
+    width: 28%;
+}
+
+#services .smr-holder a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 3px 3px #F9DC5C;
+}
+
+.services-body {
+  padding: 5%;
+  text-align: justify;
+  font-weight: 300;
+  font-family: 'Merriweather';
 }
